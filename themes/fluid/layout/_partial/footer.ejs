@@ -1,11 +1,38 @@
 <footer class="text-center mt-5 py-3">
+  <div class="app-refresh" id="app-refresh">
+    <div class="app-refresh-wrap" onclick="location.reload()">
+      <label>已更新最新版本</label>
+      <span>点击刷新</span>
+    </div>
+  </div>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      if (navigator.serviceWorker.controller) {
+        navigator.serviceWorker.addEventListener('controllerchange', function () {
+          showNotification();
+        });
+      }
+
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('/sw.js');
+      });
+    }
+
+    function showNotification() {
+      document.querySelector('meta[name=theme-color]').content = '#000';
+      document.getElementById('app-refresh').className += ' app-refresh-show';
+    }
+
+  </script>
+
   <div class="footer-content">
     <%- theme.footer.content %>
   </div>
   <%- partial('_partial/statistics.ejs') %>
   <%- partial('_partial/beian.ejs') %>
   <% if(theme.web_analytics.cnzz) { %>
-    <!-- cnzz Analytics Icon -->
-    <span id="cnzz_stat_icon_<%- theme.web_analytics.cnzz %>" style="display: none"></span>
+  <!-- cnzz Analytics Icon -->
+  <span id="cnzz_stat_icon_<%- theme.web_analytics.cnzz %>" style="display: none"></span>
   <% } %>
 </footer>

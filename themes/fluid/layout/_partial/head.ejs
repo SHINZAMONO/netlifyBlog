@@ -28,7 +28,7 @@ if (page.description) {
   <meta name="author" content="<%= page.author || config.author %>">
   <meta name="keywords" content="<%= keywords %>">
   <% if (theme.custom_head) { %>
-    <%- theme.custom_head %>
+    <link rel="manifest" href="/manifest.json">
   <% } %>
   <title><%= title %></title>
 
