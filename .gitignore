@@ -5,3 +5,19 @@ db.json
 node_modules/
 public/
 .deploy*/
+.idea/
+*.iml
+yarn.lock
+package-lock.json
+
+# Ignore optional external libraries
+!source/lib/*
+
+# Track internal libraries & Ignore unused verdors files
+!source/lib/font-awesome/less/
+!source/lib/font-awesome/scss/
+!source/lib/font-awesome/
+
+!source/lib/anime.min.js
+
+!source/lib/velocity/
