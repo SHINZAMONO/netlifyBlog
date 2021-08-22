@@ -1,0 +1,35 @@
+index:
+  banner_img: /img/default/blog_banner.png
+  banner_img_height: 100
+post:
+  banner_img: /img/uploads/Deployment.png
+  banner_img_height: 40
+  default_index_img: /img/default/blog_banner.png
+archive:
+  banner_img: /img/default/archive_banner.jpeg
+  banner_img_height: 40
+category:
+  banner_img: /img/default/category_banner.png
+  banner_img_height: 40
+tag:
+  banner_img: /img/default/tag_banner.png
+  banner_img_height: 40
+about:
+  banner_img: /img/default/about_banner.jpeg
+  banner_img_height: 40
+links:
+  banner_img: /img/default/link_banner.jpeg
+  banner_img_height: 40
+  items:
+    - title: Apple
+      intro: 微软什么都好，就是没有什么品味
+      link: https://apple.com/
+      avatar: /img/default/jobs.jpeg
+    - title: Microsoft
+      intro: 我要当Apple一辈子舔狗
+      link: https://microsoft.com
+      avatar: /img/default/BG.jpeg
+    - title: Manjaro
+      intro: 在座的各位都是垃圾
+      link: https://manjaro.org
+      avatar: /img/default/manjaro.jpeg
