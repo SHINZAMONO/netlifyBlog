@@ -35,6 +35,7 @@ Mac开发环境是大家公认较为优秀的，因此放在第一位讲，废�
 * 部署操作小到操作系统的安装，大到整个项目的开发部署调优维护，都在一开始操作系统的安装便要确定最终的方向和目的，因此在Big Sur 首次安装完毕运行向导时就要明确我们的方向和操作。
 
 1. 硬盘加密选项，选择不加密
+2.AppleID
 
 ```bash
 $ hexo new "My New Post"
@@ -63,5 +64,3 @@ More info: [Generating](https://hexo.io/docs/generating.html)
 ```bash
 $ hexo deploy
 ```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
