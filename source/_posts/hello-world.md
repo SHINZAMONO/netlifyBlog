@@ -86,11 +86,15 @@ Mac开发环境是大家公认较为优秀的，因此放在第一位讲，废�
   * 万恶起源的C造就了一切的快速而普及向的开发，因此配置C是难免的，Xcode虽然自带了gcc但我们依然需要Homebrew来安装配置一下，方便今后Homebrew的编译和安装
  
 * pyenv & nvm 安装
+  ```bash
   brew install pyenv nvm
+  ```
   * Homebrew让我们体验到了包管理模式的方便快捷，因此同理，pyenv和nvm分别是python和node的包管理工具，可以在其包下安装多个版本的python和nvm，相当于打的包管理下有多个小的包管理工具。这样的模式就像系统中的多个账户一样，Homebrew相当于系统中的root，pyenv和nvm就是系统中的账户一样，嵌套管理着 
 
-### Deploy to remote sites
+* iterm2 使用macOS的第二大动力源
+  ```bash
+  brew install iterm2
+  ```
+  * iterm 是专门面向 macOS 的终端补充软件，其在实现系统终端的功能上加入了大量用户可以自定义的功能，没有花里胡哨，只有更花里胡哨。人皆爱美，这点覆盖率还是蛮高的。
+  * iterm 的配置
 
-```bash
-$ hexo deploy
-```
