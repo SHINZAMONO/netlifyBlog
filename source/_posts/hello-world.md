@@ -67,16 +67,10 @@ Mac开发环境是大家公认较为优秀的，因此放在第一位讲，废�
     ```
 * Homebrew🍺
   * 使用Mac的第一源动力：[Homebrew](https://brew.sh/)
-
-More info: [Writing](https://hexo.io/docs/writing.html)
-
-### Run server
-
-```bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
+  * 一键安装：
+    ```bash
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    ```
 
 ### Generate static files
 
