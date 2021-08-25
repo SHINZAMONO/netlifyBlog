@@ -47,6 +47,14 @@ Mac开发环境是大家公认较为优秀的，因此放在第一位讲，废�
     Apple Developer：[More - Downloads - Apple Developer](https://developer.apple.com/download/all/)
   * Command Line Tools for Xcode 下载安装（请对应安装的Xcode版本）
   * 安装完后请Xcode打开一次，阅读并同意Xcode使用协议
+
+* <details>
+<summary>科学上网GitHub开源乐园，学生党避免资本压榨的学习天堂</summary>
+<p><b>由于国内的网络安全问题，大家会发现GitHub或微软账号登陆时长出现无法链接或者链接缓慢，虽然现在已经有了许多替代方案，但依然会出现链接失效、资源维护老旧、盗版倒卖，甚至违法诈骗</b></p>
+<p><b>因此在此建议大家依然是买一张飞机票，飞向开源天堂，如此井底之蛙也能突破水压，越过井壁，发现外面精彩的世界</b></p>
+<p><b>在此便不便多言了，这里推荐Clash，也是一款免费的开源软件，覆盖我所介绍的三个操作系统，macOS推荐安装ClashXPro，设计了增强模式更加强大便利，使用起来如履平地，丝滑流畅</b></p>
+<p><b>接下来便考验的是进入此行的最基础基本功，搜索引擎的使用和学习，你若成功GET了那么请继续看下去，若没有明白恭喜你可以打开WPS写转专业申请或者辞职报告转行了</b></p>
+
 * 初次设定git
 
   * 开启你的小飞机登陆GitHub：[GitHub](https://github.com/)
