@@ -65,7 +65,8 @@ Mac开发环境是大家公认较为优秀的，因此放在第一位讲，废�
     git config --global user.name "你的git用户名"
     git config --global user.email 你的GitHub账户绑定邮箱@example.com
     ```
-  *
+* Homebrew🍺
+  * 使用Mac的第一源动力：Homebrew[Homebrew](https://brew.sh/)
 
 More info: [Writing](https://hexo.io/docs/writing.html)
 
