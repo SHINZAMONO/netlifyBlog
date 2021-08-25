@@ -78,6 +78,12 @@ Mac开发环境是大家公认较为优秀的，因此放在第一位讲，废�
 <p><b>如 $ brew install steam 这简单的一句命令意为 嘿brew给我装个steam我想玩游戏了，而完成这一切你不必再打开浏览器关掉弹出的弹窗，被八卦新闻和垃圾资本广告吸引走注意力或打扰，没有虚假的非官方网站链接，假的跳转链接和给你下载木马的高速下载器。下载下来也不必找到安装包点4次下一步再因为因为没去掉checkbox的✅而下一堆推广垃圾软件再去卸载，也不必再去 case(配置错误){default:打开百度;case1:*SDN ⌘CV;case2:飞天逼乎 ⌘CV;case3:过期简书 ⌘CV;case4:阿里云开发者 ⌘CV;case5:腾讯云开发者 ⌘CV;...}</p></b>
 <p><b>brew会自动帮你更新所有Homebrew下已装软件,并且为你安装最纯净最新的软件版本，而这种一键帮你搜索安装配置听起来像“VIP“的服务是免费开源不收费的</p></b>
 
+* gcc & cmake 安装
+
+  ```bash
+  brew install gcc cmake
+  ```
+  * 万恶起源的C造就了一切的快速而普及向的开发，因此配置C是难免的，Xcode虽然自带了gcc但我们依然需要Homebrew来安装配置一下，方便今后Homebrew的编译和安装
 
 
 ### Deploy to remote sites
