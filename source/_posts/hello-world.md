@@ -65,23 +65,20 @@ Mac开发环境是大家公认较为优秀的，因此放在第一位讲，废�
     git config --global user.name "你的git用户名"
     git config --global user.email 你的GitHub账户绑定邮箱@example.com
     ```
-* Homebrew🍺
+* Homebrew🍺安装
   * 使用Mac的第一源动力：[Homebrew](https://brew.sh/)
   * 一键安装：
     ```bash
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     ```
-  * 什么是Homebrew？
+  * <details> 
+<summary>什么是Homebrew？</summary>
+<p><b>Homebrew是一个维护非常到位且非常强大的PackageManager包管理工具</p></b>
+<p><b>什么是包管理工具？顾名思义可以理解为它就是一个软件管家，不过它没有图形界面，通过SHELL命令行进行交互。你或许会想没有界面是多么麻烦，然而在如今网络环境如垃圾场一样的今天，像RSS新闻订阅一样返璞归真真的会让生活更加淳朴而高效</p></b>
+<p><b>如 $ brew install steam 这简单的一句命令意为 嘿brew给我装个steam我想玩游戏了，而完成这一切你不必再打开浏览器关掉弹出的弹窗，被八卦新闻和垃圾资本广告吸引走注意力或打扰，没有虚假的非官方网站链接，假的跳转链接和给你下载木马的高速下载器。下载下来也不必找到安装包点4次下一步再因为因为没去掉checkbox的✅而下一堆推广垃圾软件再去卸载，也不必再去 case(配置错误){default:打开百度;case1:*SDN ⌘CV;case2:飞天逼乎 ⌘CV;case3:过期简书 ⌘CV;case4:阿里云开发者 ⌘CV;case5:腾讯云开发者 ⌘CV;...}</p></b>
+<p><b>brew会自动帮你更新所有Homebrew下已装软件,并且为你安装最纯净最新的软件版本，而这种一键帮你搜索安装配置听起来像“VIP“的服务是免费开源不收费的</p></b>
 
-    Homebrew是一个维护非常到位且非常强大的PackageManager包管理工具；
-    什么是包管理工具？顾名思义可以理解为它就是一个软件管家，不过它没有图形界面，通过SHELL命令行进行交互
-### Generate static files
 
-```bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
 
 ### Deploy to remote sites
 
