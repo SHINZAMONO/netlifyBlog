@@ -35,11 +35,29 @@ Mac开发环境是大家公认较为优秀的，因此放在第一位讲，废�
 * 部署操作小到操作系统的安装，大到整个项目的开发部署调优维护，都在一开始操作系统的安装便要确定最终的方向和目的，因此在Big Sur 首次安装完毕运行向导时就要明确我们的方向和操作。
 
 1. 硬盘加密选项，选择不加密
-2.AppleID
+2. Apple ID注册登录(邮箱注册较好)
+3. iCloud 文稿选择不同步
 
-```bash
-$ hexo new "My New Post"
-```
+* Xcode安装
+
+  * 两种方法：APP Store ｜ Apple Developer 支持
+
+    APP Store：[‎Xcode on the Mac App Store (apple.com)](https://apps.apple.com/us/app/xcode/id497799835?mt=12)
+
+    Apple Developer：[More - Downloads - Apple Developer](https://developer.apple.com/download/all/)
+  * Command Line Tools for Xcode 下载安装（请对应安装的Xcode版本）
+  * 安装完后请Xcode打开一次，阅读并同意Xcode使用协议
+* 初次设定git
+
+  * 开启你的小飞机登陆GitHub：[GitHub](https://github.com/)
+  * 注册GitHub账号
+  * global git config：这是你的身份凭证，此时请打开你的terminal终端.app，开启你今后职业生涯将做的最多的工作：⌘command + CV
+
+    ```bash
+    git config --global user.name "你的git用户名"
+    git config --global user.email 你的GitHub账户绑定邮箱@example.com
+    ```
+  *
 
 More info: [Writing](https://hexo.io/docs/writing.html)
 
