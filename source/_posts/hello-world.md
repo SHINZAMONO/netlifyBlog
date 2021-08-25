@@ -84,7 +84,10 @@ Mac开发环境是大家公认较为优秀的，因此放在第一位讲，废�
   brew install gcc cmake
   ```
   * 万恶起源的C造就了一切的快速而普及向的开发，因此配置C是难免的，Xcode虽然自带了gcc但我们依然需要Homebrew来安装配置一下，方便今后Homebrew的编译和安装
-
+ 
+* pyenv & nvm 安装
+  brew install pyenv nvm
+  * Homebrew让我们体验到了包管理模式的方便快捷，因此同理，pyenv和nvm分别是python和node的包管理工具，可以在其包下安装多个版本的python和nvm，相当于打的包管理下有多个小的包管理工具。这样的模式就像系统中的多个账户一样，Homebrew相当于系统中的root，pyenv和nvm就是系统中的账户一样，嵌套管理着 
 
 ### Deploy to remote sites
 
