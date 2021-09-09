@@ -40,6 +40,8 @@ Mac开发环境是大家公认较为优秀的，因此放在第一位讲，废�
 
   * 两种方法：APP Store ｜ Apple Developer 支持
 
+![APP Store](https://portal.qiniu.com/cdn/domain/qxk6l0b62.bkt.clouddn.com/https://portal.qiniu.com/cdn/domain/qxk6l0b62.bkt.clouddn.com/uPic/pOuehF.png)
+
     APP Store：[‎Xcode on the Mac App Store (apple.com)](https://apps.apple.com/us/app/xcode/id497799835?mt=12)
 
     Apple Developer：[More - Downloads - Apple Developer](https://developer.apple.com/download/all/)
