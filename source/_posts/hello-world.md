@@ -42,9 +42,11 @@ Mac开发环境是大家公认较为优秀的，因此放在第一位讲，废�
 
 ![APP Store](https://picha.tech/uPic/Snipaste_2021-09-01_12-03-17.png)
 
-    APP Store：[‎Xcode on the Mac App Store (apple.com)](https://apps.apple.com/us/app/xcode/id497799835?mt=12)
+    
+APP Store：[‎Xcode on the Mac App Store (apple.com)](https://apps.apple.com/us/app/xcode/id497799835?mt=12)
 
-    Apple Developer：[More - Downloads - Apple Developer](https://developer.apple.com/download/all/)
+    
+Apple Developer：[More - Downloads - Apple Developer](https://developer.apple.com/download/all/)
   * Command Line Tools for Xcode 下载安装（请对应安装的Xcode版本）
   * 安装完后请Xcode打开一次，阅读并同意Xcode使用协议
 
