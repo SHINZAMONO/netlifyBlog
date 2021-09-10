@@ -26,8 +26,6 @@ keywords:
 
 ### Manjaro-KDE-21.0.7-210614-linux510
 
-部署环境小到安装操作系统，大到部署一个工作项目并调优
-
 ## 1.macOS Big Sur11.5.2
 
 Mac开发环境是大家公认较为优秀的，因此放在第一位讲，废话不多说直接开始
@@ -42,9 +40,10 @@ Mac开发环境是大家公认较为优秀的，因此放在第一位讲，废�
 
   * 两种方法：APP Store ｜ Apple Developer 支持
 
-    APP Store：[‎Xcode on the Mac App Store (apple.com)](https://apps.apple.com/us/app/xcode/id497799835?mt=12)
+[![点击图片直接跳转](https://picha.tech/uPic/Snipaste_2021-09-01_12-03-17.png)](https://apps.apple.com/us/app/xcode/id497799835?mt=12)
 
-    Apple Developer：[More - Downloads - Apple Developer](https://developer.apple.com/download/all/)
+[![点击图片直接跳转](https://picha.tech/uPic/Snipaste_2021-09-01_12-09-31.png)](https://developer.apple.com/download/all/)
+
   * Command Line Tools for Xcode 下载安装（请对应安装的Xcode版本）
   * 安装完后请Xcode打开一次，阅读并同意Xcode使用协议
 
